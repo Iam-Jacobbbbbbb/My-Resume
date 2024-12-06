@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div, h1, p{
+            font-family: "Open Sans", sans-serif;
+        }
+        .hello{
+            padding: 10px;
+        }
+        .haha{
+            border-style: solid;
+            border-color: gray;
+            border-radius: 10px;
+            border-right-width: auto ;
+            width: 300px;
+            height: auto;
+            padding: 20px;
+            margin: auto 10px auto 10px;
+        }
+        textarea{
+            width: 250px;
+        }
+        label{
+            margin: 0px 0px 0px 20px;
+        }
+        .eiei{
+            width: 250px;
+            margin: 0px 0px 0px 20px;
+        }
+        .eiei1{
+            margin: 0px 0px 0px 20px;
+        }
+        textarea{
+            
+            margin: 0px 0px 0px 20px;
+        }
+        select{
+            width: 258px;
+            margin: 0px 0px 0px 20px;
+        }
+    </style>
+    <title>MY Resume</title>
+</head>
+<body>
+    <div class="hello">
+        <a href="./index.html">Home</a>
+        <a href="./Education.html">Education</a>
+        <a href="./Experience.html">Experience</a>
+        <a href="#">Contact</a>
+    </div>
+    <hr />
+    <h1>Contact</h1>
+    <div class="haha">
+    <form action="">
+        <p style="margin: 0px 0px 20px 20px;"><strong>Enter your info</strong></p>
+        <label for="yourname">Your name </label><br>
+        <input class="eiei type="text" name="yourname" value=""><br><br>
+        <label for="email">Your E-mail </label><br>
+        <input class="eiei type="text" name="email" value=""><br><br>
+        <label for="Gender">Gender </label><br>
+        <select id="Gender" name="Gender">
+            <option value="">Select...</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" rows="15" cols="150"></textarea>
+        <br><br>
+        <input class="eiei1" type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </form>
+    </div>
+</body>
+</html>
